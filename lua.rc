@@ -1,0 +1,8 @@
+function swithTabletScreen ()
+  tabletScreen = (tabletScreen + 1)%2
+  if tabletScreen == 0 then
+    awful.util.spawn("xsetwacom --set \"Wacom Graphire4 6x8 stylus\" MapToOutput \"1280x1024+0+0\"")
+  elseif tabletScreen ==1 then
+    awful.util.spawn("xsetwacom --set \"Wacom Graphire4 6x8 stylus\" MapToOutput \"1280x1024+1280+0\"")
+  end
+end
