@@ -1,0 +1,5 @@
+#/bin/bash
+xsetwacom --set "Wacom Graphire4 6x8 stylus" MapToOutput "1280x1024+0+0"
+xsetwacom --set "Wacom Graphire4 6x8 eraser" MapToOutput "1280x1024+0+0"
+xsetwacom --set "Wacom Graphire4 6x8 cursor" MapToOutput "1280x1024+0+0"
+xsetwacom --set "Wacom Graphire4 6x8 pad" MapToOutput "1280x1024+0+0"
